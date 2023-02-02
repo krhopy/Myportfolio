@@ -711,7 +711,7 @@ textarea {
     font-size: 1.7rem;
     line-height: 1.7;
     color: #333;
-    margin-bottom: 2rem;}
+    margin-bottom: 2rem; }
   .project-details__desc-para_3{
     text-align: center;
     font-size: 1.8rem;
@@ -723,6 +723,20 @@ textarea {
     line-height: 1.7;
     color: #333;
   }
+    .project-details__desc-para_5{
+    font-size: 1.7rem;
+    line-height: 1.9;
+    color: #333;
+    margin-bottom: 2rem;
+    text-indent: -1em;
+    margin-left: 1em; }
+    .subject{
+    font-size: 1.8rem; }
+    .decoblock {
+      background: #f3f1f1;
+      border-radius: 0.4rem;
+      padding: 2.5px 4px 2.5px 4px;
+      color: lightcoral;}
 
 .project-details__tools-used {
   margin: 0 0 7rem 0; }
@@ -740,6 +754,7 @@ textarea {
     color: #777; }
 
 .project-details__links {
+  padding-top: 8rem;
   margin: 0 0; }
   .project-details__links-btn {
     margin-right: 2rem; }
@@ -763,9 +778,9 @@ textarea {
   color: #333;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 2rem 5rem;
   margin-top: 8rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 15rem; }
   @media only screen and (max-width: 56.25em) {
     .project-details-row {
       grid-template-columns: 1fr;
